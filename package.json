@@ -1,0 +1,27 @@
+{
+  "name": "google_map_automated_testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test --ui",
+    "test:debug": "npx playwright test --debug",
+    "report": "npx playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tashiro-Naohisa/google_map_automated_testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tashiro-Naohisa/google_map_automated_testing/issues"
+  },
+  "homepage": "https://github.com/Tashiro-Naohisa/google_map_automated_testing#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0"
+  }
+}
