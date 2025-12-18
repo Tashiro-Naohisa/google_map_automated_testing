@@ -103,11 +103,11 @@ test.describe('テストスイート名', () => {
   test('テストケース名', async ({ page }) => {
     // ページにアクセス
     await page.goto('https://www.google.co.jp/maps');
-    
+
     // 要素を操作
     const element = page.locator('#selector');
     await element.click();
-    
+
     // アサーション
     await expect(page).toHaveTitle(/期待するタイトル/);
   });
