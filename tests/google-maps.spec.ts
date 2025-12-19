@@ -24,7 +24,7 @@ test.describe('Google Maps テスト', () => {
         // 検索結果が表示されるのを待つ
         await page.waitForTimeout(3000);
 
-        // URLに検索キーワードが含まれているか確認
-        await expect(page).toHaveURL(/東京駅|Tokyo/);
+        // URLに検索キーワードが含まれているか確認（URLエンコードされた文字列も含む）
+        await expect(page).toHaveURL(/東京駅|Tokyo|%E6%9D%B1%E4%BA%AC%E9%A7%85/);
     });
 });

@@ -1,4 +1,5 @@
 import { defineConfig, devices } from '@playwright/test';
+import { join } from 'path';
 
 /**
  * Playwright設定ファイル
@@ -40,19 +41,37 @@ export default defineConfig({
 
     // ブラウザプロジェクト設定
     projects: [
+        // 認証セットアップ（最初に実行）
+        {
+            name: 'setup',
+            testMatch: /auth\.setup\.ts/,
+        },
         {
             name: 'chromium',
-            use: { ...devices['Desktop Chrome'] },
+            use: {
+                ...devices['Desktop Chrome'],
+                // 認証状態を使用
+                storageState: join(__dirname, 'playwright/.auth/user.json'),
+            },
+            dependencies: ['setup'],
         },
 
         {
             name: 'firefox',
-            use: { ...devices['Desktop Firefox'] },
+            use: {
+                ...devices['Desktop Firefox'],
+                storageState: join(__dirname, 'playwright/.auth/user.json'),
+            },
+            dependencies: ['setup'],
         },
 
         {
             name: 'webkit',
-            use: { ...devices['Desktop Safari'] },
+            use: {
+                ...devices['Desktop Safari'],
+                storageState: join(__dirname, 'playwright/.auth/user.json'),
+            },
+            dependencies: ['setup'],
         },
 
         // モバイルビューポート

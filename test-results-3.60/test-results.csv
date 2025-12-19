@@ -1,0 +1,27 @@
+﻿No.,テスト名,試行回数,テスト実行結果,期待値確認結果,実行時間(秒),詳細,エラー内容
+1,"7.tooltip","1回目","NG","確認中",30.01,"-","""popupPage""のセットアップ中にタイムアウト（30000ms）しました。"
+2,"5.information dialog display","1回目","NG","確認中",30.01,"-","""popupPage""のセットアップ中にタイムアウト（30000ms）しました。"
+3,"1.map display","1回目","NG","確認中",30.02,"-","""popupPage""のセットアップ中にタイムアウト（30000ms）しました。"
+4,"3.when changed search criteria center place valid position pin","1回目","NG","確認中",30.01,"-","""popupPage""のセットアップ中にタイムアウト（30000ms）しました。"
+5,"9.acquisition range of criteria correctly affected is confirmation(51km)","1回目","NG","確認中",30.00,"-","""popupPage""のセットアップ中にタイムアウト（30000ms）しました。"
+6,"7.tooltip","2回目","NG","確認中",30.01,"-","""popupPage""のセットアップ中にタイムアウト（30000ms）しました。"
+7,"1.map display","2回目","NG","確認中",30.00,"-","""popupPage""のセットアップ中にタイムアウト（30000ms）しました。"
+8,"5.information dialog display","2回目","NG","確認中",30.02,"-","""popupPage""のセットアップ中にタイムアウト（30000ms）しました。"
+9,"3.when changed search criteria center place valid position pin","2回目","NG","確認中",30.01,"-","""popupPage""のセットアップ中にタイムアウト（30000ms）しました。"
+10,"9.acquisition range of criteria correctly affected is confirmation(51km)","2回目","NG","確認中",30.01,"-","""popupPage""のセットアップ中にタイムアウト（30000ms）しました。"
+11,"10.compare all screenshots","1回目","NG","NG",0.02,"-","Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 0
+Received: 8 [場所: test-map-display-bulk.spec.ts:477:18]"
+14,"10.compare all screenshots","2回目","NG","NG",0.02,"-","Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 0
+Received: 8 [場所: test-map-display-bulk.spec.ts:477:18]"
+17,"8.acquisition range of criteria correctly affected is confirmation(50km)","1回目","NG","確認中",30.02,"-","""popupPage""のセットアップ中にタイムアウト（30000ms）しました。"
+18,"2.proliferation do not confirmation","1回目","NG","確認中",30.01,"-","""popupPage""のセットアップ中にタイムアウト（30000ms）しました。"
+19,"6.mapId affected is confirmation","1回目","NG","確認中",30.00,"-","""popupPage""のセットアップ中にタイムアウト（30000ms）しました。"
+20,"4.current location pin is displayed","1回目","NG","確認中",30.01,"-","""popupPage""のセットアップ中にタイムアウト（30000ms）しました。"
+21,"8.acquisition range of criteria correctly affected is confirmation(50km)","2回目","NG","確認中",30.02,"-","""popupPage""のセットアップ中にタイムアウト（30000ms）しました。"
+22,"2.proliferation do not confirmation","2回目","NG","確認中",30.00,"-","""popupPage""のセットアップ中にタイムアウト（30000ms）しました。"
+23,"6.mapId affected is confirmation","2回目","NG","確認中",30.01,"-","""popupPage""のセットアップ中にタイムアウト（30000ms）しました。"
+24,"4.current location pin is displayed","2回目","NG","確認中",30.01,"-","""popupPage""のセットアップ中にタイムアウト（30000ms）しました。"
