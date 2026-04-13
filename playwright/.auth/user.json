@@ -1,4 +1,69 @@
 {
-  "cookies": [],
-  "origins": []
+  "cookies": [
+    {
+      "name": "__ctc",
+      "value": "Z08OKWmVg50Sv6zjBf0zAg==",
+      "domain": ".cybozu.com",
+      "path": "/",
+      "expires": 1805966237.521064,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "JSESSIONID",
+      "value": "WD1B1aHq8ONFV29XAtBZT1iZKlvDPVCWNztCWivbfbLAajddnaNl1dN7YaezPPbj",
+      "domain": "googlemaplinkage-testdevelop.cybozu.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "CYBOZU_COM_DOMAIN",
+      "value": "googlemaplinkage-testdevelop",
+      "domain": ".cybozu.com",
+      "path": "/",
+      "expires": 1805966238.351681,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "portal.lastVisitedPortalId_1",
+      "value": "portal_v1",
+      "domain": "googlemaplinkage-testdevelop.cybozu.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "KINTONE_DOMAIN",
+      "value": "googlemaplinkage-testdevelop",
+      "domain": ".cybozu.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://googlemaplinkage-testdevelop.cybozu.com",
+      "localStorage": [
+        {
+          "name": "gaia.1::gaia.userusage",
+          "value": "{\"lastUpdatedAt\":\"2026/2/18\"}"
+        },
+        {
+          "name": "gaia.1::portal.ntf",
+          "value": "{\"selected\":\"-2\"}"
+        }
+      ]
+    }
+  ]
 }
